@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+    /*background-image: url(b700ce782fa57a3fd26b13c5d823f077.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px; (c'est ce que je dois faire si je veux mettre une image en fond d'ecran*/
+}
+/* <margin> cest l'esapce autour de mon élément ALORS QUE <padding> ces' l'esapce entre le bord et le contenu*/
+/*h1{
+    color: black;
+    font-family: "Press Start 2P";
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-width: 10px;
+    border-left-color: red;
+    
+}
+*/
+p{
+    background-color: grey; color: white;
+    font-family: "consolas";
+    font-style: italic;
+    font-weight: bold;
+    border-style: solid;
+    padding: 5px;
+}
+
+#p4{
+    color: greenyellow;
+    
+}
+.premier{
+    color: greenyellow;
+}
+.deuxième{
+    color: greenyellow;
+}
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: chartreuse;
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: crimson;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background: crimson;
+    float: right;
+}
+a:link{
+    color:firebrick
+    /* ca me permet de chaner la couleur du lien*/
+}
+button:active{
+    background-color: green;
+}
+/* dès que je clqiue sur le bouton, il est de la couleur que j'ai choisi*/
+/*
+li:nth-child(2){
+    background-color: greenyellow;
+ ( ca me permet de surligner en couleur "Mon élement X" que je veux)
+}
+li:nth-child(odd){
+    background-color: violet;
+    (ca me permet de surligner dans la couleur que je veux tous les "Mon élement" IMPAIR)
+}
+li:nth-child(even){
+    background-color: palevioletred;
+    (ca me permet de surligner dans la couleur que je veux tous les "Mon élement" PAIR)
+}
+*/
+h1{
+    text-shadow: 5px 5px 5px grey;
+}
+.fa-car{
+    color: red;
+}
+.fa-tiktok{
+    color: black;
+}
+.fa-python{
+    color: green;
+}
+
+#carré1{
+    border: 2px solid;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background: lightcoral;
+    transform: matrix(2, 0, 0, 2, 10, 10);
+    /* "transform:matrix() est la combinaison de "transform scaleX; scaleY; skexY; skewX; translateX; trabnslateY)*/
+   /* animation: gauchedroite;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    "animation" et "animation-duration" est en lien avec "@keyframes"
+    */
+    animation: 5s linear 0s infinite running gauchedroite;
+    /*en faisait ca, j'ai combiné en une ligne les différents animation ci dessus, ca fait le même job*/
+}
+@keyframes gauchedroite{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
